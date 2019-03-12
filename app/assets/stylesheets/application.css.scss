@@ -21,7 +21,7 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
   //Gradient provided by Coolors.co
   background: rgba(153, 221, 200, 1);
   background: -webkit-linear-gradient(to left, rgba(153, 221, 200, 1), rgba(224, 224, 226, 1));
@@ -30,4 +30,10 @@ body, .navbar {
 
 .navbar {
   border:none;
+}
+
+.home-callout {
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
