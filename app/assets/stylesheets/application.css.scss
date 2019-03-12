@@ -17,10 +17,13 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+//Typography Styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+// Background Gradient
 .navbar, .home-callout {
   //Gradient provided by Coolors.co
   background: rgba(153, 221, 200, 1);
@@ -28,10 +31,12 @@ h1, h2, h3 {
   background: linear-gradient(to left, rgba(153, 221, 200, 1), rgba(224, 224, 226, 1));
 }
 
+// Nav Styles
 .navbar {
   border:none;
 }
 
+// Homepage Styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
